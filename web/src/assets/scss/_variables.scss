@@ -1,0 +1,48 @@
+$colors: (
+  "primary": #db9e3f,
+  "white": #fff,
+  "black": #000,
+  "dark": #222,
+  "grey": #999,
+  "light": #f9f9f9
+);
+$border-color: map-get($colors, 'grey');
+$font-sizes: (
+  "xs": 10px,
+  "sm": 12px,
+  "md": 13px,
+  "lg": 14px,
+  "xl": 16px
+);
+$flex-jc: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "between": space-between,
+  "around": space-around
+);
+$flex-ai: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "stretch": stretch
+);
+$spacing-types: (
+  "m": margin,
+  "p": padding
+);
+$spacing-directions: (
+  "u": top,
+  "d": bottom,
+  "l": left,
+  "r": right
+);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  5: 3
+);
